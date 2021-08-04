@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+#cabecera_formulario {
+    font-size: 20px;
+}
+
+#footer {
+    color: black;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer_link {
+    color: black;
+}
+
+#footer_link:hover{
+    color: green;
+}

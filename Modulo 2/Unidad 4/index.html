@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Practica de Bootstrap - Modulo 2 Unidad 4</title>
+</head>
+<body>
+
+    <!-- barra de navegacion -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fas fa-shipping-fast"></i> Transporte Internacional <i class="fas fa-ship"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Acerca de Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Nuestros Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contactenos</a>
+                    </li> 
+                </ul>
+                <span class="navbar-text">
+                    <i class="fas fa-phone-alt"></i> 2477-495000
+                </span>
+            </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- carousel -->
+
+    <section id="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1.jpg" style="width:640px;height:500px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Transporte Terrestre</h5>
+                  <p>Su carga a domicilio por via terrestre</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/2.jpg" style="width:640px;height:500px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Transporte Maritimo</h5>
+                  <p>Su carga llega al puerto de eleccion</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/3.jpg" style="width:640px;height:500px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Su Carga Segura</h5>
+                  <p>Disponemos de un lugar seguro para su carga</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <form action="">
+        <div class="container-fluid mt-3 row justify-content-center">
+            <div class="col-md-11 col-lg-10">
+              <div class="card">
+                <div id="cabecera_formulario" class="card-header bg-primary text-white text-center">
+                  <strong>Complete el formulario y nos pondremos en contacto</strong>
+                </div>
+                <div class="card-body P-2">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="">NOMBRE Y APELLIDO</label>
+                          <input type="text"
+                            class="form-control" name="" id="nombre" aria-describedby="helpId" placeholder="Ingrese su Nombre y Apellido">
+                        </div>
+                      </div>      
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="">DOMICILIO</label>
+                          <input type="text"
+                            class="form-control" name="" id="domicilio" aria-describedby="helpId" placeholder="Ingrese su Domicilio">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="">CORREO ELECTRONICO</label>
+                          <input type="email"
+                            class="form-control" name="" id="correo" aria-describedby="helpId" placeholder="Por favor, ingrese el Correo Electronico">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="">PREFIJO</label>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1">0</span>
+                            </div>
+                            <input type="number" class="form-control" id="carac_fijo" placeholder="Codigo de Area" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="">N° TEL. FIJO</label>
+                          <input type="number"
+                            class="form-control" name="" id="tel_fijo" aria-describedby="helpId" placeholder="">
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="">PREFIJO</label>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1">0</span>
+                            </div>
+                            <input type="number" class="form-control" id="carac_cel" placeholder="Codigo de Area" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label for="">N° TEL. CELULAR</label>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1">15</span>
+                            </div>
+                            <input type="number" class="form-control" id="tel_cel" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> Enviar Datos</button>
+                        </div>      
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          </div>
+    </form>
+
+    <footer id="footer" class="bg-white text-center">
+        <strong> © 2021 Copyright: <a id="footer_link" href="https://tupagina.com/">Tu Pagina Facil</a></strong>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
