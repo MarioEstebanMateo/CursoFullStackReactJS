@@ -1,0 +1,122 @@
+/* -------------------- Home --------------------- */
+
+#logo_principal {
+    height: 80px;
+    width: 120px;
+}
+
+#titulo_principal {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+footer {
+    background-color: #292b2c;
+    color: white;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+#bienvenida {
+    background-color: #e1ad74;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* -------------------- Servicios --------------------- */
+
+.holder {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: black;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+.servicio {
+    border: 1px solid black;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+    -webkit-box-shadow: 6px 10px 13px 1px rgba(94,94,94,0.83); 
+    box-shadow: 6px 10px 13px 1px rgba(94,94,94,0.83);
+    background-color: #e1ad74;
+}
+
+.servicio .info {
+    width: 75%;
+}
+
+.servicio .info h4 {
+    color: #2e64a1;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 0.5em;
+}
+
+.servicio .info p {
+    font-size: 0.8em;
+    line-height: 1.2em;
+
+}
+
+.servicio img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0.8em;
+    border: 1px solid black;
+    -webkit-box-shadow: 6px 10px 13px 1px rgba(94,94,94,0.83); 
+    box-shadow: 6px 10px 13px 1px rgba(94,94,94,0.83);
+}
+
+.servicio:nth-child(even) img {  /*par*/
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info {  /*par*/
+    float: left;
+}
+
+.servicio:nth-child(odd) img {  /*impar*/
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info {  /*impar*/
+    float: right;
+}
+
+.servicio_h4 {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    border-radius: 0.8em;
+    font-weight: 500;
+}
+
+/* -------------------- Novedades --------------------- */
+
+
+/* -------------------- Contacto --------------------- */
