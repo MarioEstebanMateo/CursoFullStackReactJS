@@ -1,11 +1,11 @@
 /* -------------------- Home --------------------- */
 
-#logo_principal {
+.logo_principal {
     height: 80px;
     width: 120px;
 }
 
-#titulo_principal {
+.titulo_principal {
     color: white;
     font-size: 30px;
     font-style: italic;
@@ -25,7 +25,7 @@ footer {
     text-align: center;
 }
 
-#bienvenida {
+.bienvenida {
     background-color: #e1ad74;
     display: inline-block;
     padding-top: 10px;
