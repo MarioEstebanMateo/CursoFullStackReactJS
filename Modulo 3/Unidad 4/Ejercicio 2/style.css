@@ -1,0 +1,19 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea {
+    display: flex;
+}
+
+.boton {
+    display: flex;
+    margin-top: 20px;
+}
+
+.parrafo {
+    display: flex;
+}
