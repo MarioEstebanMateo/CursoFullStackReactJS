@@ -6,8 +6,8 @@ import '../../styles/components/layout/Nav.css'
 const Nav = (props) => {
     return (
         <nav>
-            <ul class="barra_navegacion">
-                <li><NavLink to="/home" activeClassName="active">Home</NavLink></li>
+            <ul className="barra_navegacion">
+                <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
                 <li><NavLink to="/servicios" activeClassName="active">Servicios</NavLink></li>
                 <li><NavLink to="/novedades" activeClassName="active">Novedades</NavLink></li>
                 <li><NavLink to="/contacto" activeClassName="active">Contacto</NavLink></li>
