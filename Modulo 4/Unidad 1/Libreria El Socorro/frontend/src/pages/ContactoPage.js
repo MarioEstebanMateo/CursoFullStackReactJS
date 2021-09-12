@@ -29,7 +29,7 @@ const ContactoPage = (props) => {
                     </ul>
                 </div>
                 <div class="mapa">
-                    <h4>Nuestra Ubicacion</h4>
+                    <h4>Nuestra Ubicacion:</h4>
                     <div>
                         <iframe title="Ubicacion Libreria El Socorro" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.8568717138614!2d-60.711619485229036!3d-33.66087031572737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b8293d28ee2d9d%3A0xab1044b5d3919ba7!2sLorenzo%20Moreno%201040%2C%20Villa%20Ang%C3%A9lica%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1630817032091!5m2!1ses!2sar"></iframe>
                     </div>

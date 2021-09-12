@@ -14,7 +14,7 @@ function App() {
       <Header />
         <Nav />
         <Switch>
-          <Route path="/" exact component={Homepage} />
+          <Route path="/home" exact component={Homepage} />
           <Route path="/servicios" exact component={ServiciosPage} />
           <Route path="/novedades" exact component={NovedadesPage} />
           <Route path="/contacto" exact component={ContactoPage} />

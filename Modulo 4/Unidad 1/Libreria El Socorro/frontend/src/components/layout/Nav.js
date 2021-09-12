@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 import '../../styles/components/layout/Nav.css'
 
@@ -6,10 +7,10 @@ const Nav = (props) => {
     return (
         <nav>
             <ul class="barra_navegacion">
-                <li><a class="activo" href="index.html">Home</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="novedades.html">Novedades</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><NavLink to="/home" activeClassName="active">Home</NavLink></li>
+                <li><NavLink to="/servicios" activeClassName="active">Servicios</NavLink></li>
+                <li><NavLink to="/novedades" activeClassName="active">Novedades</NavLink></li>
+                <li><NavLink to="/contacto" activeClassName="active">Contacto</NavLink></li>
             </ul>
         </nav>
     );
