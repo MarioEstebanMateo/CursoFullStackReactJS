@@ -6,6 +6,7 @@ const HomePage = (props) => {
     return (
         <main>
             <div className="bienvenida">
+                <img src="img/Home/imagenhome.jpg"></img>
                 <h4>Bienvenidos a nuestra libreria</h4>
                 <p>¿Querés comprar un libro, comic o manga?</p>
                 <p>Hace clic en la seccion de novedades y enterate de todo lo nuevo, si no encontras tu lectura, te lo traemos por encargue y hacemos envíos a todo el país</p>
