@@ -1,0 +1,15 @@
+.carousel-item {
+    height: 450px;
+    background-color: white;
+}
+
+.carousel-item>img {
+    position: relative;
+    top: 0;
+    right: 0;
+    min-width: 400;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 20% 19%;
+}

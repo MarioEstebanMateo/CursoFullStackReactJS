@@ -1,0 +1,301 @@
+/* -------------------- Home --------------------- */
+
+.carousel-item {
+    height: 450px;
+    background-color: white;
+}
+
+.carousel-item>img {
+    position: relative;
+    top: 0;
+    right: 0;
+    min-width: 400;
+    height: 450px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 20% 19%;
+}
+
+.bienvenida {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+}
+
+.bienvenida h4 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.bienvenida p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.nuestros_clientes {
+    padding: 20px 20px;
+    background-color: wheat;
+}
+
+.nuestros_clientes h4 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+
+.clientes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    -webkit-box-shadow: 6px 10px 13px 1px rgba(94, 94, 94, 0.83);
+    box-shadow: 6px 10px 13px 1px rgba(94, 94, 94, 0.83);
+}
+
+.tarjeta img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+.tarjeta h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tarjeta p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* -------------------- Servicios --------------------- */
+
+main .header h2 {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.servicios {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.servicio {
+    border: 1px solid black;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+    -webkit-box-shadow: 6px 10px 13px 1px rgba(94, 94, 94, 0.83);
+    box-shadow: 6px 10px 13px 1px rgba(94, 94, 94, 0.83);
+    background-color: whitesmoke;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.servicio img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0.8em;
+    border: 1px solid black;
+}
+
+.servicio:nth-child(even) img {
+    /*par*/
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info {
+    /*par*/
+    float: left;
+}
+
+.servicio:nth-child(odd) img {
+    /*impar*/
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info {
+    /*impar*/
+    float: right;
+}
+
+.servicio_h4 {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.8em;
+    font-weight: 500;
+}
+
+
+/* -------------------- Novedades --------------------- */
+
+.novedades {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tarjeta_novedades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 6px 10px 13px 1px rgba(94, 94, 94, 0.83);
+    box-shadow: 6px 10px 13px 1px rgba(94, 94, 94, 0.83);
+}
+
+.tarjeta_novedades img {
+    height: 150px;
+    width: 150px;
+    padding: 10px 10px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.tarjeta_novedades h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+.tarjeta_novedades p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.tarjeta_novedades h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+}
+
+
+/* -------------------- Contacto --------------------- */
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1%;
+}
+
+.vias_de_comunicacion {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 10px;
+}
+
+.vias_de_comunicacion h4 {
+    margin-bottom: 20px;
+}
+
+.mapa {
+    padding: 10px 10px;
+}
+
+.mapa h4 {
+    margin-bottom: 20px;
+}
+
+.formulario {
+    padding: 10px 10px;
+    width: 500px;
+}
+
+.formulario h4 {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.formulario input {
+    width: 70%;
+    border-color: grey;
+}
+
+.formulario textarea {
+    width: 70%;
+    border-color: grey;
+}
+
+.nombre {
+    padding-bottom: 10px;
+}
+
+.telefono {
+    padding-bottom: 10px;
+}
+
+.email {
+    padding-bottom: 10px;
+}
+
+.consulta {
+    padding-bottom: 10px;
+}
+
+.formulario .enviar {
+    text-align: center;
+}
+
+.formulario input[type="submit"] {
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: black;
+    font-weight: 400;
+    width: auto;
+    cursor: pointer;
+}
