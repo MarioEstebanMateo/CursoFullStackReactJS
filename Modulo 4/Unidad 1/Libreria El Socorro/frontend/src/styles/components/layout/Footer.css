@@ -1,0 +1,39 @@
+footer{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.footer1{
+    background-color: rgb(38,38,38);
+    padding: 10px 10px;
+    color: white;
+}
+
+.footer2{
+    color: white;
+    padding: 10px 10px;
+}
+
+.boton_redes{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    border: 2px solid white;
+    border-radius: 30%;
+}
+
+.footer1 a:hover{
+    color: wheat;
+    border-color: wheat;
+}
+
+.link_developer {
+    color: white;
+}
+
+.footer2 a:hover {
+    color: wheat;
+}

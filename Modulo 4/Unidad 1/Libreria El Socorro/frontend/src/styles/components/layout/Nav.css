@@ -1,15 +1,31 @@
-.carousel-item {
-    height: 450px;
-    background-color: white;
+nav {
+    background-color: black;
 }
 
-.carousel-item>img {
-    position: relative;
-    top: 0;
-    right: 0;
-    min-width: 400;
-    height: 450px;
-    object-fit: cover;
-    overflow: hidden;
-    object-position: 20% 19%;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 5px 5px;
+}
+
+nav ul li a:hover {
+    color: wheat;
+}
+
+nav ul li a.activo {
+    background-color: wheat;
+    color: black;
 }

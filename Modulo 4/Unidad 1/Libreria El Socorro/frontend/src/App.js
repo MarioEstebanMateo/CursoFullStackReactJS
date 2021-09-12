@@ -1,5 +1,6 @@
 import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
 
+import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
 import Footer from './components/layout/Footer';
 import Homepage from './pages/HomePage';
@@ -10,6 +11,7 @@ import ContactoPage from './pages/ContactoPage';
 function App() {
   return (
     <Router>
+      <Header />
       <Nav />
       <Switch>
         <Route path="/" exact component={Homepage} />
