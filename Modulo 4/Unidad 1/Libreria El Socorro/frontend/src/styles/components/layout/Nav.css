@@ -28,4 +28,5 @@ nav ul li a:hover {
 nav ul li .active {
     background-color: whitesmoke;
     color: black;
+    font-weight: bold;
 }
