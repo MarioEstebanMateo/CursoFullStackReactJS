@@ -4,8 +4,9 @@ import '../../styles/components/layout/Footer.css'
 
 const Footer = (props) => {
     return (
-        <footer>
+        <footer>    
             <div class="footer1">
+                <h4>Seguinos en nuestras redes!</h4>
                 <a class="boton_redes" href="https://www.instagram.com/libreriaelsocorro" role="button"><i class="fab fa-instagram"></i></a>
                 <a class="boton_redes" href="https://www.facebook.com/Libreria-El-Socorro-101095425635524" role="button"><i
                         class="fab fa-facebook-f"></i></a>
