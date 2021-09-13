@@ -7,7 +7,7 @@ const Nav = (props) => {
     return (
         <nav>
             <ul className="barra_navegacion">
-                <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
+                <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
                 <li><NavLink to="/servicios" activeClassName="active">Servicios</NavLink></li>
                 <li><NavLink to="/novedades" activeClassName="active">Novedades</NavLink></li>
                 <li><NavLink to="/contacto" activeClassName="active">Contacto</NavLink></li>
