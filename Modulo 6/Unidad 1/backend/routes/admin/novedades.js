@@ -21,7 +21,7 @@ router.get('/agregar', (req, res, next) => {
 
 router.post('/agregar', async (req,res, next) => {
     try {
-        if (req.body.titulo != "" && req.body.descripcion != "") {
+        if (req.body.titulo != "" && req.body.descripcion != "" && req.body.imagen != "") {
             await novedadesModel.insertNovedad(req.body);
             res.redirect('/admin/novedades')
         } else {
