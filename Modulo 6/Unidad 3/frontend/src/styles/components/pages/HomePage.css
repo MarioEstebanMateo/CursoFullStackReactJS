@@ -1,0 +1,76 @@
+.bienvenida {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+}
+
+.bienvenida img {
+    width: 100%;
+}
+
+.bienvenida h4 {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bienvenida p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.nuestros_clientes {
+    padding: 20px 20px;
+    background-color: wheat;
+}
+
+.nuestros_clientes h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+}
+
+.clientes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    -webkit-box-shadow: 6px 10px 13px 1px rgba(94, 94, 94, 0.83);
+    box-shadow: 6px 10px 13px 1px rgba(94, 94, 94, 0.83);
+}
+
+.tarjeta img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+.tarjeta h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tarjeta p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
