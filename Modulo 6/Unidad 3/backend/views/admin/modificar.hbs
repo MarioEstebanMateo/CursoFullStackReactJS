@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-6 offset-3">
             <h4>Modificar la novedad</h4>
-            <form action="/admin/novedades/modificar" method="post">
+            <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
                 <div class="form-group mb-2">
                     <input type="hidden" value="{{novedad.id}}" name="id">
                 </div>                
@@ -10,7 +10,7 @@
                     <input type="text" value="{{novedad.titulo}}" class="form-control" placeholder="Titulo" name="titulo">
                 </div>
                 <div class="form-group mb-2">
-                    <textarea type="text" value="{{novedad.descripcion}}" class="form-control" placeholder="Descripcion" name="descripcion"></textarea>
+                    <textarea type="text" class="form-control" placeholder="Descripcion" name="descripcion">{{novedad.descripcion}}</textarea>
                 </div>
                 <div class="form-group mb-2">
                     <label>Imagen: <input type="file" name="imagen" id="imagen" /></label>
