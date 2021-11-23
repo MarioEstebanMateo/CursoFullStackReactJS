@@ -13,7 +13,7 @@ const Footer = (props) => {
                 <a className="boton_redes" href="https://twitter.com/libreriaelsoco1" role="button"><i className="fab fa-twitter" target="_blank"></i></a>
             </div>
             <div className="footer2">
-                © 2021 Copyright: <a class="link_developer" href="index.html">Diseño de Mario Esteban Mateo para Diplomatura Full Stack con React - UTN</a>
+                © 2021 Copyright: <a class="link_developer" href="https://www.instagram.com/marito0209">Diseño de Mario Esteban Mateo para Diplomatura Full Stack con React - UTN</a>
             </div>
         </footer>
     );
