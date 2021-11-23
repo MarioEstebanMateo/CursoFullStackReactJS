@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var novedadesModel = require('./../models/novedadesModel');
 var cloudinary = require('cloudinary').v2;
+var nodemailer = require('nodemailer');
 
 router.get('/novedades', async function (req, res, next) {
     let novedades = await novedadesModel.getNovedades();
@@ -32,7 +33,7 @@ router.post('/contacto', async (req, res) => {
     const mail = {
         to: 'libreriaelsocorro@gmail.com',
         subject: 'Contacto Web',
-        html: `${req.body.nombre} se contacto a traves de la web y quiere mas informacion a este correo: ${req.body.mail} <br> Ademas, hizo el siguiente comentario: ${req.body.mensaje} <br> Su tel es: ${req.body.telefono}`
+        html: `${req.body.nombre} se contacto a traves de la web y quiere mas informacion a este correo: ${req.body.email} <br> Ademas, hizo el siguiente comentario: ${req.body.mensaje} <br> Su tel es: ${req.body.telefono}`
     }
 
     const transport = nodemailer.createTransport({
@@ -44,7 +45,7 @@ router.post('/contacto', async (req, res) => {
         }
     });
 
-    await transport.sednMail(mail)
+    await transport.sendMail(mail)
 
     res.status(201).json({
         error: false,

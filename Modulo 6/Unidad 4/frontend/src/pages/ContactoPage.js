@@ -6,8 +6,8 @@ const ContactoPage = (props) => {
     
     const initialForm = {
         nombre:'',
-        email:'',
         telefono:'',
+        email:'',
         mensaje:''
     }
 
