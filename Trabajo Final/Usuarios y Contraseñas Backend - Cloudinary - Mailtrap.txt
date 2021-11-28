@@ -1,0 +1,13 @@
+Usuarios y Contraseñas
+
+Backend Login:
+Usuarios: Mario, Admin o Flavia
+Password: 1234 (para todos los usuarios)
+
+Cloudinary:
+email: memateo@gmail.com
+password: aA02097803@
+
+Mailtrap:
+email: memateo@gmail.com
+password: aA02097803

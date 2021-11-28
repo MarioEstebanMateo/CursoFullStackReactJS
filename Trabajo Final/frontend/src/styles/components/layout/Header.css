@@ -1,0 +1,40 @@
+header {
+    background-color: rgb(38,38,38);
+    padding: 1em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-weight: 100;
+    display: inline-flex;
+}
+
+header img{
+    height: 80px;
+    width: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-flex;
+}
+
+header ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.boton_administrador {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    font-weight: 600;
+}
+
+header ul a:hover {
+    color: wheat;
+}
